@@ -1,0 +1,6 @@
+<!--pages/Parents/Exercising/Exercising.wxml-->
+<button bindtap="handleItemTap" hidden="{{stopButton==1}}" data-flag="1">暂停</button>
+<button bindtap="handleItemTap" hidden="{{stopButton==0}}" data-flag="0">开始</button>
+<navigator url="/pages/Parents/uploadMedia/uploadMedia">
+  <button>结束运动</button>
+</navigator>

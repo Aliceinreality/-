@@ -1,0 +1,3 @@
+<!--pages/Begin/Begin.wxml-->
+<video src="/video/Begin/Begin" autoplay="true"></video>
+ 

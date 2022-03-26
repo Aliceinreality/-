@@ -1,0 +1,6 @@
+/* pages/Parents/parentsIndex/parentsIndex.wxss */
+.move-on{
+  border: 2px solid #9ca582;
+  color: #9ca582;
+  margin-top: 50rpx;
+}

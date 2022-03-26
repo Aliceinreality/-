@@ -1,0 +1,5 @@
+<!--pages/Teachers/Posted/Posted.wxml-->
+<text>发布成功！</text>
+<navigator url="/pages/Teachers/teachersIndex/teachersIndex">
+  <button>返回首页</button>
+</navigator>

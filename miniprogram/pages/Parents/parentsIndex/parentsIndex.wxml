@@ -1,0 +1,7 @@
+<!--pages/Parents/parentsIndex/parentsIndex.wxml-->
+<text>老师任务：x次</text>
+<text>任务完成：x次</text>
+<text>为您推荐</text>
+<text>运动</text>
+<text>次</text>
+<button class="move-on" bindtap="toNext">开始运动</button>

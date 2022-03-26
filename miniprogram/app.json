@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/Begin/Begin",
+    "pages/index/index",
+    "pages/Input/inputClass/inputClass",
+    "pages/Parents/parentsIndex/parentsIndex",
+    "pages/Parents/Exercising/Exercising",
+    "pages/Parents/stopExercising/stopExercising",
+    "pages/Teachers/teachersIndex/teachersIndex",
+    "pages/Teachers/Posted/Posted",
+    "pages/getOpenId/index",
+    "pages/getMiniProgramCode/index",
+    "pages/deployService/index",
+    "pages/createCollection/index",
+    "pages/uploadFile/index",
+    "pages/selectRecord/index",
+    "pages/updateRecord/index",
+    "pages/updateRecordResult/index",
+    "pages/updateRecordSuccess/index",
+    "pages/sumRecord/index",
+    "pages/sumRecordResult/index",
+    "pages/Input/inputTeachers/inputTeachers",
+    "pages/Input/inputParents/inputParents",
+    "pages/Parents/passPR/passPR",
+    "pages/Parents/uploadMedia/uploadMedia",
+    "pages/aboutUs/aboutUs"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9ca582",
+    "navigationBarTitleText": "之云力",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

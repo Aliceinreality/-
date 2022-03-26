@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "select":"/components/Select/recSport/recSport"
+  }
+}

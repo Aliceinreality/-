@@ -1,0 +1,26 @@
+<!--pages/Teachers/teachersIndex/teachersIndex.wxml-->
+<view class="tabs">
+  <view class="tabs_title">
+    <view bindtap="handleItemTap" class="title_item {{isTabs==1?'active':''}}" data-flag="1">
+      <text>完成情况</text>
+    </view>
+    <view bindtap="handleItemTap" class="title_item {{isTabs==2?'active':''}}" data-flag="2">
+      <text>任务</text>
+    </view>
+    {{item.name}}
+  </view>
+  <view class="tabs_content" hidden="{{!(isTabs==1)}}">
+    <text>任务：</text>
+    <text>已完成任务同学：</text>
+    <text>未完成任务同学：</text>
+  </view>
+  <view class="tabs_content" hidden="{{!(isTabs==2)}}">
+    <text>布置任务：</text>
+    <text>运动名称：</text>
+    <text>次数：</text>
+    <text>次</text>
+    <navigator url="/pages/Teachers/Posted/Posted"><button>确定</button></navigator>
+  </view>
+</view>
+
+

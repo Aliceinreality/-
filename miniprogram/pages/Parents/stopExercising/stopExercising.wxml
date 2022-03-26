@@ -1,0 +1,12 @@
+<!--pages/Parents/stopExercising/stopExercising.wxml-->
+<text>恭喜！</text>
+<text>运动达标！</text>
+<text>用时：</text>
+<text>分钟</text>
+<text>次数：</text>
+<text>次</text>
+<text>还差</text>
+<text>次达成老师布置的目标</text>
+<navigator url="/pages/Parents/passPR/passPR">
+  <button>下一步</button>
+</navigator>

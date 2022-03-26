@@ -1,0 +1,42 @@
+<!--pages/Input/inputParents/inputParents.wxml-->
+<view class="container">
+  <view class="line">
+    <text class="text-wxss">请输入姓名（必填）</text>
+    <input class="input-frame" type="text" placeholder="请输入姓名"/>
+  </view> <view class="divLine" />
+  <view class="line">
+    <text class="text-wxss">请输入性别（必填）</text>
+    <radio-group>
+      <radio value="male"></radio>
+      <text class="radio-text">男</text>
+      <radio value="female"></radio>
+      <text class="radio-text">女</text>
+    </radio-group>
+  </view><view class="divLine" />  
+  <view class="line">
+    <text class="text-wxss">请选择学校（必填）</text>
+    <input class="input-frame" type="text" />
+  </view><view class="divLine" />  
+  <view class="line">
+    <text class="text-wxss">请选择年级（必填）</text>
+    <input class="input-frame" type="text" />
+  </view><view class="divLine" />
+  <view class="line">
+    <text class="text-wxss">请选择班级（必填）</text>
+    <input class="input-frame" type="text" />
+  </view><view class="divLine" />
+  <view class="line">
+    <text class="text-wxss">请输入肺活量（选填）</text>
+    <input type="text" class="input-frame" />
+  </view><view class="divLine" />
+  <view class="line">
+    <text class="text-wxss">请输入身高（选填）</text>
+    <input class="input-frame" type="text" />
+  </view><view class="divLine" />
+  <view class="line">
+    <text class="text-wxss">请输入体重（选填）</text>
+    <input class="input-frame" type="text" />
+  </view><view class="divLine" />
+</view>
+<button bindtap="toNext" class="move-on">继续</button>
+

@@ -1,0 +1,58 @@
+{
+  "setting": {
+    "urlCheck": true,
+    "coverView": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
+    "autoAudits": false,
+    "useIsolateContext": true,
+    "useMultiFrameRuntime": false,
+    "showShadowRootInWxmlPanel": true,
+    "checkInvalidKey": true,
+    "useStaticServer": true,
+    "showES6CompileOption": false
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "teachersIndex",
+          "pathName": "pages/Teachers/teachersIndex/teachersIndex",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "运动",
+          "pathName": "pages/Parents/Exercising/Exercising",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "inputClass",
+          "pathName": "pages/Input/inputClass/inputClass",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "inputNext",
+          "pathName": "pages/Input/inputNext/inputNext",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

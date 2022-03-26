@@ -1,0 +1,10 @@
+<!--components/Select/recSport/recSport.wxml-->
+<view>
+    <view bindtap='selectToggle'>
+        <view >{{nowText}}</view> 
+    </view>
+    <view  wx:if="{{selectShow}}"> 
+        <view wx:for="{{propArray}}" data-index="{{index}}" wx:key='index'  bindtap='setText'>{{item.text}}</view>
+    </view>
+</view>
+

@@ -1,0 +1,11 @@
+<!--pages/Input/inputClass/inputClass.wxml-->
+<image src="/images/inputClass/topImage.png" class="top-image"></image>
+<view class="container">
+  
+  <text class="heading">欢迎使用之云力</text>
+  <text class="sub-heading">——助力冬奥优秀项目</text>
+  <button style="width: 60%;" class="class-button" bindtap="toParents">我是家长/学生</button>
+  <button style="width: 60%;" class="class-button" bindtap="toTeachers">我是老师</button>
+  <image src="/images/inputClass/bottomImage.png" class="bottom-image"></image>
+  <button class="about-us" size="mini" bindtap="toAbout">关于我们</button>
+</view>

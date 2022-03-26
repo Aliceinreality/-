@@ -1,0 +1,6 @@
+<!--pages/Parents/uploadMedia/uploadMedia.wxml-->
+<button bindtap="chooseMedia">上传视频</button>
+
+<navigator url="/pages/Parents/stopExercising/stopExercising">
+  <button>完成</button>
+</navigator>

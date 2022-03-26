@@ -1,0 +1,5 @@
+<!--pages/Parents/passPR/passPR.wxml-->
+<text>通过体测的概率是：</text>
+<navigator url="/pages/Parents/parentsIndex/parentsIndex">
+  <button>回到首页</button>
+</navigator>

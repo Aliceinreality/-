@@ -1,0 +1,47 @@
+/* pages/Input/inputClass/inputClass.wxss */
+page{
+  height: 100%;
+}
+
+.top-image{
+  width: 100%;
+  height:340rpx;
+}
+
+.heading{
+  margin-top: 20px;
+  text-align: center;
+  color: #ff8c00;
+  font-size: 40px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.sub-heading{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin:0;
+  color: grey;
+  font-size: 18px;
+}
+
+.class-button{
+  font-size: 22px;
+  border: 2px solid rgba(68, 2, 2, 0.65);
+  color: rgba(68, 2, 2, 0.65);
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.bottom-image{
+  margin-top: 15px;
+  width: 100%;
+  height: 230rpx;
+}
+
+.about-us{
+  margin-top: 15px;
+  font-size: 10px;
+  color: #fda942;
+  border: 2px solid #fda942;
+}

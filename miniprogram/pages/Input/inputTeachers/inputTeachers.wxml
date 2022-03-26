@@ -1,0 +1,19 @@
+<!--pages/Input/inputTeachers/inputTeachers.wxml-->
+<!--pages/Input/inputParents/inputParents.wxml-->
+<view class="container">
+  <text class="text-wxss">请输入姓名（必填）</text>
+  <input class="input-frame" type="text" />
+  <text class="text-wxss">请输入性别（必填）</text>
+  <radio-group>
+    <radio value="male"></radio>
+    <text class="radio-text">男</text>
+    <radio value="female"></radio>
+    <text class="radio-text">女</text>
+  </radio-group>
+  <text class="text-wxss">请选择学校（必填）</text>
+  <input class="input-frame" type="text" />
+</view>
+<button bindtap="toNext" class="move-on">继续</button>
+
+
+
